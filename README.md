@@ -64,14 +64,16 @@ Edit
 .
 ├── .env                # Environment variables (your API key)
 ├── assistant.py        # Main script with assistant logic and tool functions
-➕ Adding New Tools
+
+
+## ➕ Adding New Tools
 Write the function.
 
 Add it to the avaiable_tools dictionary.
 
 Include a description in the system_prompt.
 
-##🛠 Tech Stack
+## 🛠 Tech Stack
 Python 3
 
 OpenAI GPT-4o
