@@ -27,12 +27,11 @@ An intelligent assistant built with OpenAI’s function calling, designed to rea
 
 Install dependencies:
 
-```bash
+
 pip install openai requests python-dotenv
 
 
-
-📝 How It Works
+##📝 How It Works
 User enters a query (e.g. "What's the weather in Paris?")
 
 Assistant plans the steps to solve the query
@@ -45,17 +44,20 @@ It observes the result
 
 Returns the final output
 
-💬 Example Interaction
+##💬 Example Interaction
 bash
 Copy
 Edit
+
 > What is the weather in New York?
 
 🧠: The user is interested in weather data of New York.
 🧠: From the available tools, I should call get_weather.
 🔨 Tool Called: get_weather New York
 🤖: The weather in New York is Partly cloudy +17°C.
-🗂️ Project Structure
+
+
+##🗂️ Project Structure
 bash
 Copy
 Edit
@@ -69,7 +71,7 @@ Add it to the avaiable_tools dictionary.
 
 Include a description in the system_prompt.
 
-🛠 Tech Stack
+##🛠 Tech Stack
 Python 3
 
 OpenAI GPT-4o
