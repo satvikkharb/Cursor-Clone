@@ -31,7 +31,7 @@ Install dependencies:
 pip install openai requests python-dotenv
 
 
-##📝 How It Works
+## 📝 How It Works
 User enters a query (e.g. "What's the weather in Paris?")
 
 Assistant plans the steps to solve the query
@@ -44,7 +44,7 @@ It observes the result
 
 Returns the final output
 
-##💬 Example Interaction
+## 💬 Example Interaction
 bash
 Copy
 Edit
@@ -57,7 +57,7 @@ Edit
 🤖: The weather in New York is Partly cloudy +17°C.
 
 
-##🗂️ Project Structure
+## 🗂️ Project Structure
 bash
 Copy
 Edit
